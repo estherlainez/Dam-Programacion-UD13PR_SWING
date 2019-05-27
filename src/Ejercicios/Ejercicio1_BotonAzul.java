@@ -6,7 +6,7 @@ import java.util.*;
 import javax.swing.JFrame;
 
 
-public class Ejercicio1 {
+public class Ejercicio1_BotonAzul {
 
 	public static void main(String[] args) {
 		Scanner teclado= new Scanner(System.in);
