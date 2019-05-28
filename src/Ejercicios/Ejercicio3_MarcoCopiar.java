@@ -42,10 +42,11 @@ import javax.swing.JTextField;
 
 			JButton boton = new JButton("Saludame");
 			JTextField texto= new JTextField(23);
-			JTextField textoPegado= new JTextField(50);
+			JTextField textoPegado= new JTextField(23);
 			
 			public Lamina2() {
-				texto.setBounds(100,25,25,25);
+				texto.setSize(100,25);
+				textoPegado.setSize(150,25);
 				add(boton);
 				add(texto);
 				add(textoPegado);
@@ -56,7 +57,8 @@ import javax.swing.JTextField;
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				String t=texto.getText();
-				//resultado.setText(t);
+				texto.setText("hola caracola");
+				textoPegado.setText("adios camaleon");
 				
 			}
 			
