@@ -30,7 +30,7 @@ class MarcoConversor extends JFrame{
 	JButton botonAdios;
 	
 	public MarcoConversor() {
-		setTitle("Marco 2 Botones");
+		setTitle("Conversor");
 		setBounds (600, 350, 600, 300);
 		
 		LaminaConversor lamina = new LaminaConversor();
